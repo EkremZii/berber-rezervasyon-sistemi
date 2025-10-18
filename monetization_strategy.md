@@ -16,36 +16,48 @@ Her Rezervasyon → %5 Komisyon
 - Günlük komisyon: 100 × 300 × 0.05 = 1,500TL
 - Aylık komisyon: 45,000TL
 
-#### B) Premium Sıralama (5,000TL/ay)
+#### B) Premium Sıralama (2,500TL/ay - Başlangıç)
 ```
 Berberler sıralamada üstte görünmek için ödeme
+Başlangıç: 2,500TL/ay (6 ay)
+Sonra: 3,500TL/ay (6 ay sonra)
 ```
 
 **Hedef Senaryo:**
-- 20 berber premium üyelik
-- Aylık gelir: 20 × 5,000 = 100,000TL
+- 30 berber premium üyelik (düşük fiyat sayesinde daha fazla)
+- Aylık gelir: 30 × 2,500 = 75,000TL (başlangıç)
+- 6 ay sonra: 30 × 3,500 = 105,000TL
 
-#### C) Berber Abonelikleri
+#### C) Berber Abonelikleri (Optimize Edilmiş)
 ```
-- 1 ay: 1,000TL
-- 3 ay: 2,500TL (aylık 833TL)
-- 6 ay: 4,000TL (aylık 667TL)
-- 12 ay: 6,800TL (aylık 567TL)
+- 1 ay: 800TL (1,000TL yerine)
+- 3 ay: 2,000TL (aylık 667TL)
+- 6 ay: 3,500TL (aylık 583TL)
+- 12 ay: 6,000TL (aylık 500TL)
 ```
 
 **Hedef Senaryo:**
-- 50 berber abonelik
-- Ortalama aylık: 700TL
-- Aylık gelir: 50 × 700 = 35,000TL
+- 60 berber abonelik (düşük fiyat sayesinde daha fazla)
+- Ortalama aylık: 600TL
+- Aylık gelir: 60 × 600 = 36,000TL
 
-### 1.2 Toplam Gelir Projeksiyonu (6 ay)
+### 1.2 Toplam Gelir Projeksiyonu (Optimize Edilmiş)
 
+#### İlk 6 Ay (Başlangıç Fiyatları):
 | Gelir Kaynağı | Aylık Gelir | Yıllık Gelir |
 |---------------|-------------|--------------|
 | Komisyon (%5) | 45,000TL | 540,000TL |
-| Premium Sıralama | 100,000TL | 1,200,000TL |
-| Berber Abonelikleri | 35,000TL | 420,000TL |
-| **TOPLAM** | **180,000TL** | **2,160,000TL** |
+| Premium Sıralama | 75,000TL | 900,000TL |
+| Berber Abonelikleri | 36,000TL | 432,000TL |
+| **TOPLAM** | **156,000TL** | **1,872,000TL** |
+
+#### 6 Ay Sonra (Artırılmış Fiyatlar):
+| Gelir Kaynağı | Aylık Gelir | Yıllık Gelir |
+|---------------|-------------|--------------|
+| Komisyon (%5) | 60,000TL | 720,000TL |
+| Premium Sıralama | 105,000TL | 1,260,000TL |
+| Berber Abonelikleri | 36,000TL | 432,000TL |
+| **TOPLAM** | **201,000TL** | **2,412,000TL** |
 
 ## 2. MALİYET ANALİZİ
 
@@ -70,13 +82,22 @@ Berberler sıralamada üstte görünmek için ödeme
 | SMS Maliyeti | 0.15TL/SMS | Kullanım bazlı |
 | Email Maliyeti | 0.01TL/Email | Kullanım bazlı |
 
-### 2.3 Net Kar Hesaplaması
+### 2.3 Net Kar Hesaplaması (Optimize Edilmiş)
 
+#### İlk 6 Ay:
 ```
-Brüt Gelir: 180,000TL/ay
+Brüt Gelir: 156,000TL/ay
+Sabit Maliyetler: 10,200TL/ay
+Değişken Maliyetler: ~12,000TL/ay (tahmini)
+Net Kar: 133,800TL/ay
+```
+
+#### 6 Ay Sonra:
+```
+Brüt Gelir: 201,000TL/ay
 Sabit Maliyetler: 10,200TL/ay
 Değişken Maliyetler: ~15,000TL/ay (tahmini)
-Net Kar: 154,800TL/ay
+Net Kar: 175,800TL/ay
 ```
 
 ## 3. BÜYÜME STRATEJİSİ

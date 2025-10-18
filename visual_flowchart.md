@@ -84,7 +84,7 @@ graph TD
     K --> O[12 Ay: 6800TL]
 ```
 
-## Para Kazanma Modeli
+## Para Kazanma Modeli (Optimize Edilmiş)
 
 ```mermaid
 graph TD
@@ -93,11 +93,13 @@ graph TD
     A --> D[Berber Abonelikleri]
     
     B --> E[Her Rezervasyondan]
-    C --> F[5000TL/Ay]
-    D --> G[1000-6800TL/Ay]
+    C --> F[2500TL/Ay - Başlangıç]
+    C --> F2[3500TL/Ay - 6 Ay Sonra]
+    D --> G[800-6000TL/Ay]
     
     E --> H[Toplam Gelir]
     F --> H
+    F2 --> H
     G --> H
     
     H --> I[Maliyetler]
@@ -108,6 +110,9 @@ graph TD
     
     H --> N[Net Kar]
     I --> N
+    
+    N --> O[İlk 6 Ay: 133,800TL]
+    N --> P[6 Ay Sonra: 175,800TL]
 ```
 
 ## Veritabanı İlişkileri
